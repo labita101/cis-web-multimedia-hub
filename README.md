@@ -13,3 +13,5 @@ This repository contains coursework, projects, documentation, and resources for 
 ## Student
 
 **GitHub Username:** labita101
+## GitHub Workflow
+This repository uses Git and GitHub for version control and project organization.
