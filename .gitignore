@@ -1,2 +1,7 @@
 Thumbs.db
 desktop.ini
+$RECYCLE.BIN/
+*.lnk
+node_modules/
+.env
+*.log
