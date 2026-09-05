@@ -13,3 +13,6 @@ This repository contains coursework, projects, documentation, and resources for 
 ## Student
 
 **GitHub Username:** labita101
+## Student: Leul Abita
+Course: Web & Multimedia Development
+Environment: Windows 11 (Git Bash)
