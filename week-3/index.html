@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <title>Week 3 Pac-Man Canvas and melonJS</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <h1>Pac-Man: Canvas and melonJS</h1>
+      <p>Use the arrow keys to move Pac-Man.</p>
+    </header>
+
+    <main class="game-layout">
+      <section class="game-panel">
+        <h2>HTML5 Canvas Pac-Man</h2>
+
+        <canvas
+          id="pacman-canvas"
+          width="560"
+          height="360"
+          aria-label="Playable Pac-Man canvas"
+        ></canvas>
+
+        <div class="coordinate-display">
+          <span>X: <strong id="coordinate-x">280</strong></span>
+          <span>Y: <strong id="coordinate-y">180</strong></span>
+        </div>
+      </section>
+
+      <section class="game-panel">
+        <h2>melonJS Engine View</h2>
+
+        <!-- melonJS creates its canvas inside this container -->
+        <div id="screen"></div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>CIS 3830 — Week 3 Dual Rendering Project</p>
+    </footer>
+
+    <script type="module" src="src/index.ts"></script>
+  </body>
+</html>
